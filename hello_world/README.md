@@ -28,3 +28,5 @@ gcc $CFILE -o cisfun
 - The script compiles the c file and outputs the results into the cisfun executable file
 - the -o specfies where to output the results. in this case its in the cisfun file
 - if -o isn't specified an a.out file is created and used to store the output instead
+
+### 4. Puts.c

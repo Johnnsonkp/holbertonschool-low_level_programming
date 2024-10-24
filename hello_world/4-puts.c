@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-int main(void){
+/**
+ * main - function prints a message to the console using the puts method
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
