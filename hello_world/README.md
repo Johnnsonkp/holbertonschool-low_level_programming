@@ -15,5 +15,7 @@ gcc -C $CFILE
 ### 2. Assembler
 
 ```
+gcc -S $FILE
 ```
-
+- The script complies and outputs the assembly code of the specified C file
+- The -S option tells gcc to the stop after the compilsation phase, and generates an assembly language file 
