@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - main function prints byte sizes to the console 
- * Return: always 0 (success)
+ * main - Prints the byte sizes of variable to the console
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
