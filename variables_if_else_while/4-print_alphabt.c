@@ -15,10 +15,7 @@ int main(void)
 		{
 			putchar(i);
 		}
-		if (i == 'z')
-		{
-			putchar('\n');
-		}
 	}
+	putchar('\n');
 	return (0);
 }
