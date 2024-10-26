@@ -8,11 +8,14 @@
 
 int main(void)
 {
-	for(int i = 'A'; i <= 'Z'; i++)
+	int i;
+	int lower_char;
+
+	for (i = 'A'; i <= 'Z'; i++)
 	{
-		int lower_char = tolower(i);
+		lower_char = tolower(i);
 		putchar(lower_char);
-		if(i == 'Z')
+		if (i == 'Z')
 		{
 			putchar('\n');
 		}
