@@ -9,13 +9,11 @@
 int main(void)
 {
 	int i;
-	int lower_char;
 
-	for (i = 'A'; i <= 'Z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		lower_char = tolower(i);
-		putchar(lower_char);
-		if (i == 'Z')
+		putchar(i);
+		if (i == 'z')
 		{
 			putchar('\n');
 		}
