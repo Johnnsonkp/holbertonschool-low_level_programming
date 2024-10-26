@@ -9,14 +9,14 @@ int main(void)
 {
 	int i;
 
-	for (i = 'A'; i <= 'Z'; i++)
-	{
-		putchar(i);
-	}
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
-		if (i == 'z')
+	}
+	for (i = 'A'; i <= 'Z'; i++)
+	{
+		putchar(i);
+		if (i == 'Z')
 		{
 			putchar('\n');
 		}
