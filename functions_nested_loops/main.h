@@ -3,6 +3,6 @@
 
 int _putchar(char i);
 void print_alphabet(void);
-void alphabet_x10(void);
+void print_alphabet_x10(void);
 
 #endif /* MAIN_H */
