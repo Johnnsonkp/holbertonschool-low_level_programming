@@ -18,11 +18,11 @@ void times_table(void)
 
 			if (multiple == 0)
 			{
-				printf("%d", multiple);
+				_putchar("%d", multiple);
 			}
 			else
 			{
-				printf("  %d", multiple);
+				_putchar("  %d", multiple);
 			}
 			_putchar(',');
 		}
