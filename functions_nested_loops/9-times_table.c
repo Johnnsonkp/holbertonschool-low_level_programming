@@ -31,5 +31,4 @@ void times_table(void)
 		_putchar('\n');
 		multiplier++;
 	}
-	return (0);
 }
