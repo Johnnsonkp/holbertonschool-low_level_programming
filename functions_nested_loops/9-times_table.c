@@ -18,11 +18,11 @@ void times_table(void)
 
 			if (multiple == 0)
 			{
-				_putchar("%d", multiple);
+				_putchar(multiple);
 			}
 			else
 			{
-				_putchar("  %d", multiple);
+				_putchar(multiple);
 			}
 			_putchar(',');
 		}
