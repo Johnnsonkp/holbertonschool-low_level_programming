@@ -15,4 +15,5 @@ int print_last_digit(int num)
 		lastDigit = num % 10
 		return (lastDigit);
 	}
+	return (0);
 }
