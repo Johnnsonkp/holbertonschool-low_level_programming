@@ -12,20 +12,15 @@ void times_table(void)
 
 	while (multiplier <= 9)
 	{
+		_putchar('0');
 		for (num = 1; num <= 9; num++)
 		{
 			int multiple = num * multiplier;
 
-			if (multiple == 0)
-			{
-				_putchar('0');
-			}
-			else
-			{
-				_putchar(' ');
-				_putchar(' ');
-				_putchar((multiple / 10) + '0');
-			}
+			_putchar(',');
+			_putchar(' ');
+			_putchar(' ');
+			_putchar((multiple);
 			_putchar(',');
 		}
 		_putchar('\n');
