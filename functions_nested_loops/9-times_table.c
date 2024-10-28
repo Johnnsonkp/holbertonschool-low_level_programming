@@ -16,7 +16,7 @@ void times_table(void)
 		{
 			int multiple = num * multiplier;
 
-			if (multiplier == 0)
+			if (multiple == 0)
 			{
 				_putchar('0');
 			}
