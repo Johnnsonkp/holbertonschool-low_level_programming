@@ -19,8 +19,17 @@ void times_table(void)
 
 			_putchar(',');
 			_putchar(' ');
-			_putchar((multiple / 10) + '0');
-			_putchar(',');
+			if (multiple > 9)
+			{
+				int first_digit = multiple / 10;
+				int last_digit = multiple % 10;
+				_putchar(first_digit);
+				_putchar(last_digit);
+			}
+			if (multiple <= 9)
+			{
+				_putchar(multiple);
+			}
 		}
 		_putchar('\n');
 		multiplier++;
