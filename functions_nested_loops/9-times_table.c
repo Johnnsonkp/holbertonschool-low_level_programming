@@ -29,8 +29,10 @@ void times_table(void)
 			}
 			if (multiple <= 9)
 			{
+				_putchar(' ');
 				_putchar(multiple + 48);
 			}
+
 		}
 		_putchar('\n');
 		multiplier++;
