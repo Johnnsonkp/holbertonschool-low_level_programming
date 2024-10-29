@@ -23,12 +23,13 @@ void times_table(void)
 			{
 				int first_digit = multiple / 10;
 				int last_digit = multiple % 10;
-				_putchar(first_digit);
-				_putchar(last_digit);
+
+				_putchar(first_digit + 48);
+				_putchar(last_digit + 48);
 			}
 			if (multiple <= 9)
 			{
-				_putchar(multiple);
+				_putchar(multiple + 48);
 			}
 		}
 		_putchar('\n');
