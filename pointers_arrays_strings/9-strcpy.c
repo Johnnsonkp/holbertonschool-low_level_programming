@@ -18,6 +18,11 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[index] = src[index];
 		index++;
+
+		if (src[index] == '\0')
+		{
+			dest[index] = src[index];
+		}
 	}
 	return (dest);
 }
