@@ -17,7 +17,7 @@ char *_strncat(char *dest, char *src, int n)
 		if (dest[idx_dest] != '\0')
 		{
 			idx_dest++;
-		}	
+		}
 	}
 	for (index = 0; index < n && src[index]; index++)
 	{
