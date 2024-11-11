@@ -23,7 +23,11 @@ char *_strpbrk(char *s, char *accept)
 	}
 	for (i = 0; i < length; i++)
 	{
-		if (s[i] != '\0' && s[i] == accept[i])
+		if (s[i] == '\0')
+		{
+			return (NULL);
+		}
+		if (s[i] == accept[i])
 		{
 			return (s);
 		}
