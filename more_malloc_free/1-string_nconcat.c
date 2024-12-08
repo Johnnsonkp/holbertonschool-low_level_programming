@@ -11,9 +11,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *str_concat;
-	unsigned int s1_count;
-	unsigned int s2_count;
-	unsigned int i;
+	unsigned int s1_count, s2_count, i;
 
 	s1_count = 0;
 	s2_count = 0;
@@ -53,6 +51,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1_count++;
 	}
 
-	str_concat[s1_count + 1] = '\0';
+	str_concat[s1_count] = '\0';
 	return (str_concat);
 }
